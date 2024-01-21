@@ -1,0 +1,45 @@
+.shopping-carts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 15px;
+    background: #F5F5F5;
+    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.15);
+    margin-top: 50px;
+}
+
+.mobilecartcontainer {
+    background: #F5F5F5;
+    border-radius: 15px;
+    margin: 5px;
+    display: inline-block;
+    position: relative;
+    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.15);
+    margin-top: 10px;
+}
+
+.image-holder-mobile {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.image-holder-mobile img {
+    border-radius: 5px;
+    width: 50px;
+}
+
+.mobile-cart-text-holder {
+    margin: 1px;
+    margin-right: 75px;
+    font-family: Montaga;
+    font-weight: 400;
+    letter-spacing: 0.15px;
+    text-transform: capitalize;
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+
+input {
+    width: 50px;
+}

@@ -1,0 +1,106 @@
+
+@media (max-width: 575.98px) {
+    .content .navbar .navbar-nav .nav-link {
+        margin-left: 15px;
+    }
+
+    #info .boxss {
+        margin: 5px;
+    }
+
+    .d-flex.justify-content-between.info {
+
+        font-size: 15px;
+    }
+}
+
+#first-selector-image {
+    justify-content: center;
+    display: flex;
+    -webkit-box-pack: center;
+}
+
+.imagess {
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.imagess img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#first-selector-name input {
+    font-weight: 600;
+    font-size: 1.1rem;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: transparent;
+    pointer-events: none;
+}
+
+#jumbotron a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#info .boxss {
+    text-align: center;
+    padding: 40px 20px;
+    display: block;
+    text-decoration: none;
+    background: white;
+    border-radius: 15px;
+}
+
+#infos .boxss .icon {
+    background: white;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    -webkit-box-shadow: 8px 8px 15px #d9d9d9, -8px -8px 15px #ffffff;
+    box-shadow: 8px 8px 15px #d9d9d9, -8px -8px 15px #ffffff;
+}
+
+.textes {
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.num {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.dashboard-pagee {
+    /* padding: 75px; */
+    background-color: #F7F7F7;
+}
+
+/* .button {
+                    padding: 10px 20px;
+                    background-color: #007bff;
+                    color: #fff;
+                    border: none;
+                    cursor: pointer;
+                } */
+
+/* Style for the hidden text (initially hidden) */
+.hidden-text {
+    display: none;
+}
+
+
+.single-order{
+    font-size: 13px;;
+}

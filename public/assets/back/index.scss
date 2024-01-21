@@ -1,0 +1,24 @@
+@import 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css';
+*{
+    --sidebar-color:#6a6a6a;
+    --sidebar-color-active:#1d1d1d;
+
+}
+@import 'main';
+@import 'sidebar';
+@import 'mobile';
+@import 'gallery';
+
+::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+::-webkit-scrollbar-track {
+    background:rgb(196, 196, 196);
+}
+
+::-webkit-scrollbar-thumb {
+    background: gray;
+    /* border: 3px solid blue; */
+}

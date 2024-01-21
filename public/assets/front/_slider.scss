@@ -1,0 +1,23 @@
+.slideshow {
+    display: flex;
+    .control {
+        width: 100px;
+    }
+    .slideshow-container {
+        flex: 1;
+
+        .slide {
+            display: none;
+            opacity: 0;
+            transition: all 1s ease;
+            &.active {
+                opacity: 1;
+                display: block;
+            }
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}

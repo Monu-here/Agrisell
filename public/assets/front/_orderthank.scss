@@ -1,0 +1,116 @@
+#thankyou{
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 75px;
+        min-height: calc(100% - 117px);
+    }
+
+    .title {
+        text-transform: capitalize;
+        font-weight: 700;
+        width: 690px;
+        margin-bottom: 5px;
+        font-size: 30px;
+    }
+
+    .summer {
+        display: inline;
+        color: #106e33;
+    }
+
+    .description {
+        width: 690px;
+        color: #5b5b5b;
+        text-align: justify;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .order-back {
+        background-color: #393D46;
+        border: none;
+        border-radius: 30px;
+        padding: 14px 35px;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+
+
+    .hero__image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    @media screen and (max-width: 1439px) {
+        .container {
+            max-width: 65rem;
+        }
+
+
+
+        .hero {
+            column-gap: 30px;
+        }
+
+        .hero__content {
+            font-size: 14px;
+        }
+
+
+        .description,
+        .order-back {
+            font-size: inherit;
+        }
+
+        .title,
+
+        .description {
+            width: 400px;
+        }
+
+
+    }
+
+    @media screen and (max-width: 767px) {
+        .container {
+            padding: 0 25px;
+        }
+
+        .hero {
+            flex-direction: column;
+            align-items: unset;
+        }
+
+        .title,
+        .description {
+            width: 100%;
+        }
+
+        .description {
+            margin-bottom: 20px;
+        }
+
+        .order-back {
+            margin-bottom: 20px;
+        }
+
+        .hero__image {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 424px) {
+        .title {
+            font-size: 20px;
+            margin-top: 20px;
+            padding: 15px;
+        }
+        .description{
+            font-size: 15px;
+        }
+    }
+}
